@@ -6,7 +6,8 @@ export default function Index() {
   const toggle = () => setWow(!wow)
   return (
     <div>
-      <button onClick={toggle}>Click for some WOW!</button>Heyo I am wow?{' '}
+      <button onClick={toggle}>Click for some WOW!</button>Heyo I am wow? I AM
+      THE BOOTSTRAP BRANCH!!!
       {wow === true ? 'YES!' : 'No.....'}
       <Link href="/fun">
         <a>Fun Page</a>
